@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue | Bonus</title>
+
+    <!-- link Vue -->
+    <script src="https://unpkg.com/vue@3"></script>
+</head>
+<body>
+    
+    <!-- contenitore per script Vue -->
+    <div id="title">
+
+        <!-- titolo con all'interno il testo importato tramite Vue -->
+        <h1> {{text}} </h1>
+
+        <!-- immagine con src e alt importati tramite Vue -->
+        <img :src="percorsoImg" :alt="descrizioneAlt">
+
+    </div>
+
+    <!-- link JavaScript -->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
